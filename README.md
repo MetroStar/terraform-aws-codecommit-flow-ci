@@ -92,7 +92,7 @@ might do in this case:
 
 ```hcl
 module "review" {
-  source = "git::https://github.com/plus3it/terraform-aws-codecommit-flow-ci.git"
+  source = "git::https://github.com/MetroStar/terraform-aws-codecommit-flow-ci.git"
 
   event     = "review"
   repo_name = "foo"
@@ -100,7 +100,7 @@ module "review" {
 }
 
 module "branch" {
-  source = "git::https://github.com/plus3it/terraform-aws-codecommit-flow-ci.git"
+  source = "git::https://github.com/MetroStar/terraform-aws-codecommit-flow-ci.git"
 
   event     = "branch"
   repo_name = "foo"
@@ -111,7 +111,7 @@ module "branch" {
 }
 
 module "tag" {
-  source = "git::https://github.com/plus3it/terraform-aws-codecommit-flow-ci.git"
+  source = "git::https://github.com/MetroStar/terraform-aws-codecommit-flow-ci.git"
 
   event     = "tag"
   repo_name = "foo"
@@ -119,7 +119,7 @@ module "tag" {
 }
 
 module "schedule" {
-  source = "git::https://github.com/plus3it/terraform-aws-codecommit-flow-ci.git"
+  source = "git::https://github.com/MetroStar/terraform-aws-codecommit-flow-ci.git"
 
   event     = "schedule"
   repo_name = "foo"
@@ -384,7 +384,7 @@ make terraform/pytest PYTEST_ARGS="-v --nomock"
 
 ## Authors
 
-This module is managed by [Plus3 IT Systems](https://github.com/plus3it).
+This module is managed by [Plus3 IT Systems](https://github.com/MetroStar).
 
 ## License
 
